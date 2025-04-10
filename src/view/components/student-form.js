@@ -60,10 +60,12 @@ function formSubmitHandler(event) {
 }
 
 function render(student = {}) {
-  console.log('Render form', student);
+  console.log('Render form', student) ;
+  console.log('fromEladsa', formElement);
   formElement.name.value = student.name || '';
   formElement.studentnr.value = student.studentnr || '';
   formElement.photo.value = student.photo || '';
+  formElement.email.value = student.email || '';
   formElement.id.value = student.id || '';
   formElement.querySelector(`[name=gender][value=${student?.gender || 'other'}]`).checked = true;
 

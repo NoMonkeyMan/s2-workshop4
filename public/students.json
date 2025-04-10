@@ -1,31 +1,35 @@
 {
   "students": [
     {
+      "id": "7a04",
       "name": "Jens",
-      "studentnr": 123456,
+      "studentnr": "123456",
       "photo": "https://randomuser.me/api/portraits/lego/1.jpg",
-      "gender": "other",
-      "id": "7a04"
+      "email": "jens@example.com",
+      "gender": "other"
     },
     {
       "id": "836a",
       "name": "Johanne",
       "studentnr": "654321",
       "photo": "https://randomuser.me/api/portraits/lego/9.jpg",
+      "email": "johanne@example.com",
       "gender": "female"
     },
     {
+      "id": "8da0",
       "name": "Hatice",
-      "studentnr": 654321,
+      "studentnr": "654321",
       "photo": "https://randomuser.me/api/portraits/lego/9.jpg",
-      "gender": "female",
-      "id": "8da0"
+      "email": "hatice@example.com",
+      "gender": "female"
     },
     {
       "id": "fb82",
       "name": "Pietje",
       "studentnr": "12234",
       "photo": "https://randomuser.me/api/portraits/lego/3.jpg",
+      "email": "pietje@example.com",
       "gender": "male"
     },
     {
@@ -33,8 +37,16 @@
       "name": "Victor",
       "studentnr": "12234",
       "photo": "https://randomuser.me/api/portraits/lego/4.jpg",
-      "studentemail": "frfr",
+      "email": "victor@example.com",
       "gender": "male"
+    },
+    {
+      "id": "6e63",
+      "name": "Ayden",
+      "studentnr": "123123",
+      "photo": "",
+      "email": "ayden@example.com",
+      "gender": "other"
     }
   ]
 }
